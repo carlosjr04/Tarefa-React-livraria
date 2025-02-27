@@ -1,0 +1,55 @@
+.forms {
+    display: flex;
+    flex-direction: column;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: 0%;
+    color: #090937;
+}
+
+.EmailInput {
+    
+    width: 400px;
+    border: 0px;
+    background: #F4F4FF;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: 0%;
+    border-radius: 4px;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.EmailInput::placeholder{
+    width: auto;
+    padding-left: 16px;
+}
+.senha {
+    width: 400px;
+    border: 0px;
+    background: #F4F4FF;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: 0%;
+    border-radius: 4px;
+   
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.senha::placeholder{
+    padding-left: 16px;
+}
+.ErrorEmail{
+    
+    color:red
+}
