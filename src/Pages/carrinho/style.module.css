@@ -15,12 +15,9 @@
     justify-content: space-around;
     transition: background 0.3s ease-in-out;
     background: #F4F4FF;
-   
-
 }
 
 .cardLivro>img{
-   
     width: 200px;
     height: 300px;
     margin-top: 20px;
@@ -95,7 +92,6 @@
     line-height: 27.32px;
     letter-spacing: 0%;
     transition: color 0.5s ease, transform 0.3s ease-in-out;
-
 }
 .comprar:hover{
     color:rgb(109, 109, 243)
@@ -115,7 +111,6 @@
     line-height: 27.32px;
     letter-spacing: 0%;
     transition: color 0.5s ease, transform 0.3s ease-in-out;
-
 }
 .excluir:hover{
     color:#090937

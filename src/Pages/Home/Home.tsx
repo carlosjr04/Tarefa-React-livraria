@@ -7,12 +7,13 @@ import Livros from "./componentes/livros/Livros"
 
 export default function Home() {
     const [livros, setLivros] = useState<livro[]>([])
-
     useEffect(() => {
         axios.get("http://localhost:3000/livros")
             .then(response => setLivros(response.data))
             .catch(error => console.log("algo deu errado" + error))
     }, [])
+    {/* esta função gera números aleatórios dentro da lista dos livros do genero.
+        Vendo se eles já foram postos na lista para não se repetir*/}
     function gerarLivroaleatorio(genero: string): livro[] {
         let livrosValidos: livro[] = []
         const livrosGenero: livro[] = livros.filter(livro => livro.genero === genero);
@@ -28,7 +29,6 @@ export default function Home() {
         return livrosValidos
     }
     const generos = ["Clássicos", "Infantil", "Fantasia", "Suspense", "Distopia", "Ficção Científica"];
-
     return (
         <>
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -40,7 +40,6 @@ export default function Home() {
                         <h2>{genero}</h2>
                         <Link to={`/Livraria/genero/${genero}`} className={style.verMais}>Ver mais</Link>
                     </div>
-
                     <ul className={style.listalivro}>
                         {gerarLivroaleatorio(genero).map(livro => (
                             <Livros

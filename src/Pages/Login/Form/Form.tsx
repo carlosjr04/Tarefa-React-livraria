@@ -9,18 +9,14 @@ const userSchema = z.object({
     senha: z.string().nonempty("A senha não pode estar vazia").min(6, "A senha deve haver ao menos 6 caracteres"),
     Email: z.string().nonempty("O Email não pode estar vazia").email("O Email deve ser válido")
 })
-
 type User = z.infer<typeof userSchema>
 
 export default function Form() {
-
     const { register, handleSubmit, reset, formState: { errors, isSubmitting,isValid} } = 
     useForm<User>({
         resolver: zodResolver(userSchema)
     })
-    
     async function createUser(data: User) {
-        
         await new Promise(resolve => setTimeout(resolve, 2000));
         console.log(data)
         reset()
@@ -36,7 +32,6 @@ export default function Form() {
                         {...register("Email")} />
                     {errors.Email && <span className={style.ErrorEmail}>{errors.Email.message}</span>}
                 </div>
-
                 <div>
                     <strong>Senha</strong>
                     <input
@@ -48,8 +43,7 @@ export default function Form() {
                 </div>
                 <BotaoContext.Provider value={{ isSubmitting , isValid}}>
                     <Botao />
-                </BotaoContext.Provider>
-                
+                </BotaoContext.Provider>              
             </form>
         </>
     )

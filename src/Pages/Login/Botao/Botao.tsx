@@ -10,22 +10,20 @@ export default function Botao() {
     }
     const navigate = useNavigate()
     const { isSubmitting, isValid } = SubmitContext;
-    
     let enviado = false
-    async function handleClick(){   
+    async function handleClick() {
         enviado = true
-        if(isValid){
+        if (isValid) {
             enviado = true
             await new Promise(resolve => setTimeout(resolve, 2000));
-            navigate("/Livraria/Home")    
+            navigate("/Livraria/Home")
         }
-                           
+
     }
     return (
-        <> 
+        <>
             <div className={style.botao}>
-                
-                <button  onClick={handleClick} className={style.entrar} >{!isSubmitting ? "Login" : "Carregando..."}</button>
+                <button onClick={handleClick} className={style.entrar} >{!isSubmitting ? "Login" : "Carregando..."}</button>
                 <button className={style.cadastro}>Cadastrar</button>
             </div>
         </>

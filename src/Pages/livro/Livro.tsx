@@ -14,32 +14,28 @@ export default function Livro() {
             .then(response => setLivros(response.data))
             .catch(error => console.log("algo deu errado" + error))
     }, [])
-
     const livro = livros.find(livro => livro.id == Number(livroId))
     const navigate = useNavigate()
     function HandleClickHome() {
         navigate("/Livraria/Home")
     }
-    function Compra(){
-        const lista:number[]= JSON.parse(localStorage.getItem("carrinho") || "[]");
-        let livrorepetido = lista.find(element =>element === livro?.id)
+    function Compra() {
+        const lista: number[] = JSON.parse(localStorage.getItem("carrinho") || "[]");
+        let livrorepetido = lista.find(element => element === livro?.id)
         let confirmar;
-        let listaId:number[] = lista
-        if(livrorepetido==undefined){
-             confirmar = confirm("Deseja adicionar esse livro ao seu carrinho?")
-        }else{
-             confirmar = confirm("Deseja adicionar esse livro novamente ao seu carrinho?")
+        let listaId: number[] = lista
+        if (livrorepetido == undefined) {
+            confirmar = confirm("Deseja adicionar esse livro ao seu carrinho?")
+        } else {
+            confirmar = confirm("Deseja adicionar esse livro novamente ao seu carrinho?")
         }
-        
-        if(confirmar){
-            
-            if(!livro){
+        if (confirmar) {
+            if (!livro) {
                 return
             }
             listaId.push(livro.id)
-            localStorage.setItem("carrinho", JSON.stringify(listaId));   
+            localStorage.setItem("carrinho", JSON.stringify(listaId));
         }
-         
     }
     return (
         <>

@@ -10,13 +10,11 @@ function handleClick(id:number){
 }
     return (
         <div onClick={() => handleClick(livro.id)} className={style.quadro}>
-            <img  src={livro.capa} alt="capa do livro"/>
-           
+            <img  src={livro.capa} alt="capa do livro"/>  
             <div style={{
                 display:"flex",
                 flexDirection:"column",
-                justifyContent:"space-around",
-                
+                justifyContent:"space-around", 
             }}>
                 <div className={style.titulo}>
                     <h3>{livro.titulo}</h3>

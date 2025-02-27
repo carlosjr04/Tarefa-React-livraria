@@ -36,7 +36,6 @@
     position: relative; 
     transition: color 0.3s ease-in-out;
 }
-
 .verMais::after {
     content: "";
     position: absolute;
@@ -49,11 +48,9 @@
     transform-origin: left;
     transition: transform 0.3s ease-in-out;
 }
-
 .verMais:hover {
     color: #D8563A; 
 }
-
 .verMais:hover::after {
     transform: scaleX(1);
 }

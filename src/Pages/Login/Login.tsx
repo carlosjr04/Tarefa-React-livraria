@@ -27,14 +27,9 @@ export default function Login() {
                             <h2>Entre na sua conta</h2>
                         </div>
                         <Form />
-                        
                     </div>
-
-
                 </div>
             </div>
-
         </>
-
     )
 }
