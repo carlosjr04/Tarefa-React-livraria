@@ -1,42 +1,42 @@
-.botao{
-    margin-top: 30px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
+.botao {
+  margin-top: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.entrar{
-    width: 400px;
-    height: 60px;
-    background: #EF6B4A;
-    border-radius: 4px;
-    font-family: Manrope;
-    font-weight: 600px;
-    font-size: 24px;
-    line-height: 32.78px;
-    letter-spacing: 0%;
-    color:white;
-    cursor: pointer;
-    transition: background-color 0.5s ease, transform 0.2s ease;
-    &:hover {
-        background-color: #0056b3;
-    }
+.entrar {
+  width: 400px;
+  height: 60px;
+  background: #ef6b4a;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: 0%;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.2s ease;
+  &:hover {
+    background-color: #0056b3;
+  }
 }
-.cadastro{
-    width: 400px;
-    height: 60px;
-    border-radius: 4px;
-    background-color: white;
-    border: 1px solid #6251DD;
-    color: #6251DD;
-    font-family: Manrope;
-    font-weight: 600px;
-    font-size: 24px;
-    line-height: 32.78px;
-    letter-spacing: 0%;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    &:hover {
-        background-color: #66ef4a;
-    }
+.cadastro {
+  width: 400px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #6251dd;
+  color: #6251dd;
+  font-family: Manrope;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: 0%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  &:hover {
+    background-color: #66ef4a;
+  }
 }

@@ -1,47 +1,47 @@
-.quadro{
-    height: 200px;
-    width: 320px;
-    display: flex;
-    gap:20px;
-    border: 1px solid #0909371A;
-    background: #F4F4FF;
-    transition: background 0.3s ease-in-out;
-    cursor: pointer;
+.quadro {
+  height: 200px;
+  width: 320px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid #0909371a;
+  background: #f4f4ff;
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
 }
 .quadro:hover {
-    background-color: #EF6B4A; 
+  background-color: #ef6b4a;
 }
-.quadro>img{
-    height: 180px;
-    width: 120px;
-    margin: 10px 0px 0px 10px;
+.quadro > img {
+  height: 180px;
+  width: 120px;
+  margin: 10px 0px 0px 10px;
 }
-.titulo>h3{
-    font-family: Manrope;
-    font-weight: 600px;
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: 0%;
-    color: #090937;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}   
-.titulo>p{
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21.86px;
-    letter-spacing: 0%;
-    color: #09093799;
-    margin:0px;
+.titulo > h3 {
+  font-family: Manrope;
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  color: #090937;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
-.preco{
-    font-family: Manrope;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32.78px;
-    letter-spacing: 0%;
-    color: #6251DD;
-    margin:0px;
+.titulo > p {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.86px;
+  letter-spacing: 0%;
+  color: #09093799;
+  margin: 0px;
+}
+.preco {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: 0%;
+  color: #6251dd;
+  margin: 0px;
 }

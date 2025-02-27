@@ -1,117 +1,117 @@
-.lista{
-    display: flex;
-    justify-content: center;
-    gap:20px;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    flex-wrap: wrap;
+.lista {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
 }
-.cardLivro{
-    width: 300px;
-    min-height: 480px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: background 0.3s ease-in-out;
-    background: #F4F4FF;
+.cardLivro {
+  width: 300px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: background 0.3s ease-in-out;
+  background: #f4f4ff;
 }
 
-.cardLivro>img{
-    width: 200px;
-    height: 300px;
-    margin-top: 20px;
+.cardLivro > img {
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
 }
-.texto{
-    display: flex;
-    flex-direction: column;
-    width: 260px;
-    height: auto;
-    justify-content: center;
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: auto;
+  justify-content: center;
 }
-.texto>h4{
-    margin:0px;
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: 0%;
-    color: #090937;
+.texto > h4 {
+  margin: 0px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  color: #090937;
 }
-.textoVazio{
-    margin:0px;
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 27.32px;
-    letter-spacing: 0%;
-    color: #090937;
+.textoVazio {
+  margin: 0px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  color: #090937;
 }
-.titulo>h3{
-    margin:0px;
-    display: flex;
-    align-items: center;
-    font-family: Manrope;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32.78px;
-    letter-spacing: 0%;
-    color: #6251DD;
+.titulo > h3 {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: 0%;
+  color: #6251dd;
 }
-.titulo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
 }
-.titulo>p{
-    margin:0px;
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21.86px;
-    letter-spacing: 0%;
-    color: #09093799;
+.titulo > p {
+  margin: 0px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.86px;
+  letter-spacing: 0%;
+  color: #09093799;
 }
-.botoes{
-    display: flex;
-    gap:3rem;
+.botoes {
+  display: flex;
+  gap: 3rem;
 }
-.comprar{
-    height: 40px;
-    width: 100px;
-    background-color: rgb(135, 238, 140);
-    border:0px;
-    border-radius: 4px;
-    cursor: pointer;
-    color: white;
-    margin:0px;
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 27.32px;
-    letter-spacing: 0%;
-    transition: color 0.5s ease, transform 0.3s ease-in-out;
+.comprar {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(135, 238, 140);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin: 0px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  transition: color 0.5s ease, transform 0.3s ease-in-out;
 }
-.comprar:hover{
-    color:rgb(109, 109, 243)
+.comprar:hover {
+  color: rgb(109, 109, 243);
 }
-.excluir{
-    height: 40px;
-    width: 100px;
-    background-color: rgb(238, 135, 135);
-    border:0px;
-    border-radius: 4px;
-    cursor: pointer;
-    color: white;
-    margin:0px;
-    font-family: Manrope;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 27.32px;
-    letter-spacing: 0%;
-    transition: color 0.5s ease, transform 0.3s ease-in-out;
+.excluir {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(238, 135, 135);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin: 0px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  transition: color 0.5s ease, transform 0.3s ease-in-out;
 }
-.excluir:hover{
-    color:#090937
+.excluir:hover {
+  color: #090937;
 }

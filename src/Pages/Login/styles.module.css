@@ -1,52 +1,46 @@
 .login {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: 50vw;
-
+  width: 50vw;
 }
 
 .CaixaLogin {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 .entre {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.entre>p {
-    height: auto;
-    font-family: Manrope;
-    font-weight: 600px;
-    font-size: 24px;
-    line-height: 32.78px;
-    letter-spacing: 0%;
-    color: #3e3e3fc0;
-    margin: 0px;
+.entre > p {
+  height: auto;
+  font-family: Manrope;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: 0%;
+  color: #3e3e3fc0;
+  margin: 0px;
 }
-.entre>h2 {
-    height: auto;
-    font-family: Manrope;
-    font-weight: 700px;
-    font-size: 32px;
-    line-height: 43.71px;
-    letter-spacing: 0%;
-    color: #090937;
-    margin: 0px;
+.entre > h2 {
+  height: auto;
+  font-family: Manrope;
+  font-weight: 700px;
+  font-size: 32px;
+  line-height: 43.71px;
+  letter-spacing: 0%;
+  color: #090937;
+  margin: 0px;
 }
-
-
-
-
